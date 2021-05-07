@@ -1,0 +1,32 @@
+.container {
+    position: fixed;
+    text-decoration: none; 
+   outline: none;
+   box-sizing: border-box;
+   background: transparent;
+   display: center;
+   height: 40px;
+   color: white;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .nav-links {
+   text-decoration: none;
+   color: white;
+   padding: .5rem;
+   display: flex;
+   align-items: left;
+   background: #8627E0;
+   z-index: 10;
+ }  
+ .container .nav-links {
+   padding: .5rem .5rem .3rem .5rem;
+   display: grid;
+   grid-template-columns: 1fr;
+   flex-direction: column;
+   margin: 0 0 0 40px;
+   z-index: 10;
+ } 
