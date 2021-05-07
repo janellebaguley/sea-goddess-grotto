@@ -1,13 +1,11 @@
 import React, {Component} from 'react';
 
 class Shop extends Component {
-    constructor() {
-        super()
-    }
-
     render(){
         return(
-            <div>Shop</div>
+            <div>
+            <h1>Shop</h1>
+            </div>
         )
     }
 }

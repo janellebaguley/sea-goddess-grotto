@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Link, withRouter} from 'react-router-dom';
-import octo6 from '../../../assets/octo6.png';
+import octo6 from '../../assets/octo6.png'
 
 class Home extends Component {
     constructor(){

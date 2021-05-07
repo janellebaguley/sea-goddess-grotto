@@ -28,14 +28,14 @@ class Blog extends Component{
     return(
         <div>
             <section className='blog-container'>
-                {this.state.posts?.map((posts) => (
+                {/* {this.state.posts?.map((posts) => (
                     <div key={this.state.posts.post_id}>
                         <section>
                         <p>{this.state.posts.title}</p>
                         <p>{this.state.posts.content}</p>
                         </section>
                     </div>
-                ))}
+                ))} */}
             </section>
         </div>
         )
