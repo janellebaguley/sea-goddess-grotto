@@ -12,7 +12,7 @@ const Contact = props => {
 
 
     useEffect(() => {
-        document.title = 'Contact - Michelle'
+        document.title = 'Contact - The Sea Goddess Grotto'
     }, [])
 
     const sendMessage = (e) => {
