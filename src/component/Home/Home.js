@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Link, withRouter} from 'react-router-dom';
-import octo6 from '../../assets/octo6.png'
+import octa from '../../assets/octa.png'
+import './Home.css'
 
 class Home extends Component {
     constructor(){
@@ -9,9 +10,9 @@ class Home extends Component {
     render(){
         return(
             <div>
-                <img src={octo6} alt= 'tentacles'/>
-                <footer>
-                    <nav>
+                <img src={octa} alt= 'tentacles' className='tentacles'/>
+                <footer className='footer'>
+                    <nav className='nav-links-f'>
                         <Link to ='/'>Home</Link>
                         <Link to = '/shop'>Shop</Link>
                         <Link to = '/psychic'>Psychic Services</Link>

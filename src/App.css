@@ -1,6 +1,14 @@
+@font-face {
+  font-family: 'Savoye LET';
+  src: local('Savoye LET'), local('Savoye LET'),
+        url(${SavoyeLETPlaintWoff2}) format('woff2'),
+        url(${SavoyeLETPlainWoff}) format('woff');
+       
+}
 .App {
   text-align: center;
   background-color: #4889E0;
   color: white;
   text-decoration: none;
 }
+

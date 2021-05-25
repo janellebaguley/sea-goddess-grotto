@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Link, withRouter} from 'react-router-dom';
+import './Header.css'
 
 class Header extends Component {
     constructor(props){
@@ -15,7 +16,7 @@ class Header extends Component {
     render(){
         return(
             <div>
-                <header>The Sea Goddess Grotto</header>
+                <header className='container'>The Sea Goddess Grotto</header>
                 <section>
                 {/* <HamburgerMenu 
                 isOpen = {this.state.open} 

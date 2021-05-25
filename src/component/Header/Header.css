@@ -1,12 +1,15 @@
 .container {
-    position: fixed;
+    /* position: fixed; */
     text-decoration: none; 
    outline: none;
    box-sizing: border-box;
    background: transparent;
    display: center;
-   height: 40px;
+   height: 20px;
+   padding: 10px 0 0 0;
    color: white;
+   align-items: center;
+   font-size: 60px;
   }
 
   h1{
