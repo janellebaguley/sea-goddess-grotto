@@ -1,9 +1,13 @@
 .tentacles {
     width: 100vw;
     padding: 80px 0 20px 0;
+    text-decoration: none;
 }
-
-
+.footer {
+  text-decoration: none;
+  justify-content: flex;
+  flex-direction: space-evenly;
+}
   .nav-links-f {
     text-decoration: none;
   }

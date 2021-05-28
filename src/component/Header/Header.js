@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Link, withRouter} from 'react-router-dom';
+import HamburgerMenu from 'react-hamburger-menu'
 import './Header.css'
 
 class Header extends Component {
@@ -18,7 +19,7 @@ class Header extends Component {
             <div>
                 <header className='container'>The Sea Goddess Grotto</header>
                 <section>
-                {/* <HamburgerMenu 
+                <HamburgerMenu 
                 isOpen = {this.state.open} 
                 menuClicked = {this.toggleDropdown}
                 width={30}
@@ -27,7 +28,7 @@ class Header extends Component {
                 position='fixed'
                 z-index = {10}
                 justify-content = 'right'
-                /> */}
+                />
             
             {this.state.open
           ? (

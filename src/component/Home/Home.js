@@ -11,7 +11,7 @@ class Home extends Component {
         return(
             <div>
                 <img src={octa} alt= 'tentacles' className='tentacles'/>
-                <footer className='footer'>
+                <footer className='footer' >
                     <nav className='nav-links-f'>
                         <Link to ='/'>Home</Link>
                         <Link to = '/shop'>Shop</Link>
