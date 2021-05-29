@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css';
+import {Link, withRouter} from 'react-router-dom';
 import Header from './component/Header/Header'
 import routes from './routes'
 
@@ -8,8 +9,20 @@ function App() {
     <div className="App">
       <Header />
       {routes}
+      <footer className='footer'  >
+                    <nav className='nav-links-f'>
+                        <Link to ='/' className='nav-links-f'>Home</Link>
+                        <Link to = '/shop' className='nav-links-f'>Shop</Link>
+                        <Link to = '/psychic' className='nav-links-f'>Psychic Services</Link>
+                        <Link to = '/blog' className='nav-links-f'>Blog</Link>
+                        <Link to = '/contact' className='nav-links-f'>Contact</Link>
+                        <Link to = '/about' className='nav-links-f'>About</Link>
+                    </nav>
+                    {/* <img /> */}
+                    {/* <img /> */}
+                </footer>
     </div>
   );
 }
 
-export default App;
+export default withRouter(App);
