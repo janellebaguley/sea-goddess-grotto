@@ -3,7 +3,7 @@
     text-decoration: none; 
    outline: none;
    box-sizing: border-box;
-   background: transparent;
+   /* background: transparent; */
    display: center;
    height: 20px;
    padding: 10px 0 0 0;
