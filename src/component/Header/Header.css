@@ -1,15 +1,23 @@
+@font-face {
+  font-family: "Berkshire_Swash";
+  src: local("Berkshire_Swash"),
+  url("../../fonts/Berkshire_Swash/BerkshireSwash-Regular.ttf") format("truetype");
+  font-weight: regular;
+}
+
 .container {
     /* position: fixed; */
     text-decoration: none; 
    outline: none;
    box-sizing: border-box;
-   /* background: transparent; */
+   background: #8627E0;
    display: center;
    height: 20px;
    padding: 10px 0 0 0;
    color: white;
    align-items: center;
    font-size: 60px;
+   font-family: "Berkshire_Swash";
   }
 
   h1{

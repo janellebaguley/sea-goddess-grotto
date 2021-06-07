@@ -1,16 +1,23 @@
+@font-face {
+  font-family: "Playfair_Display";
+  src: local("Playfair_Display"),
+  url("../../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
+  font-weight: regular;
+}
+
 :root {
     --main-color: #F1FAEE;
     --text-color: #F1FAEE;
     --text-color-light: #F1FAEE;
     --border-color: #eee;
-    --bg-color: #1D3557;
-    --neutral-color: #1D3557;
+    --bg-color: #4889E0;
+    --neutral-color: #8627E0;
+    --margin: 100px 0 0 0;
   }
   
   html,
   body,
   body > div { /* the react root */
-    margin: 0;
     padding: 0;
     height: 100%;
     text-transform: capitalize;
@@ -40,9 +47,9 @@
   .demo-app {
     display: flex;
     min-height: 50%;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     font-size: 12px;
     text-transform: capitalize;
+    margin: 50px 0 0 0;
   }
   
   .demo-app-sidebar {
@@ -65,7 +72,7 @@
     background-color: #F1FAEE;
     font-size: 14px;
     color: #457B9D;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Playfair_Display';
     text-transform: capitalize;
     /* margin: .5em 0 10em 0; */
   }

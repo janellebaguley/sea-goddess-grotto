@@ -1,9 +1,10 @@
-.font-face-gm {
-  font-family: "BerkshireSwash"
- }
- 
-       
+@font-face {
+  font-family: "Playfair_Display";
+  src: local("Playfair_Display"),
+  url("./fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
+  font-weight: regular;
 }
+ 
 .App {
   text-align: center;
   background-color: #4889E0;
@@ -13,6 +14,7 @@
 
 .footer {
  text-decoration: none;
+ font-family: 'Playfair_Display';
 }
 .nav-links {
   text-decoration: none;

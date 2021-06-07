@@ -35,7 +35,7 @@ class Header extends Component {
                 <nav>
                     <Link to ='/'>Home</Link>
                     <Link to = '/shop'>Shop</Link>
-                    <Link to = '/psychic'>Psychic Services</Link>
+                    <Link to = '/events'>Events</Link>
                     <Link to = '/blog'>Blog</Link>
                     <Link to = '/contact'>Contact</Link>
                     <Link to = '/about'>About</Link>

@@ -4,9 +4,9 @@ import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
 import {INITIAL_EVENTS, createEventId} from "./event-utils";
-import './Events.css'
+import './MyCalendar.css'
 
-export default class Events extends Component {
+export default class MyCalendar extends Component {
   constructor(){
     super()
     this.state = {
@@ -48,7 +48,7 @@ export default class Events extends Component {
       <div className="demo-app-sidebar">
         <div className='demo-app-sidebar-section'>
           <h2>All Events ({this.state.currentEvents.length})</h2>
-          <ul>{this.state.currentEvents?.map(renderSidebarEvent)}</ul>
+          <ul>{this.state.currentEvents.map(renderSidebarEvent)}</ul>
         </div>
       </div>
     );
@@ -64,10 +64,10 @@ export default class Events extends Component {
 function renderEventContent (eventInfo){
   
   return (
-    <>
+    <ul>
       <b>{eventInfo.timeText}</b>
       <i>{eventInfo.event.title}</i>
-    </>
+    </ul>
   );
 }
 
