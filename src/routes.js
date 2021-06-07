@@ -6,6 +6,7 @@ import Blog from './component/Blog/Blog'
 import Contact from './component/Contact/Contact'
 import Psychic from './component/Psychic/Psychic'
 import Shop from './component/Shop/Shop'
+import Events from './component/Events/Events'
 
 export default (
     <Switch>
@@ -15,5 +16,6 @@ export default (
         <Route path= '/contact' component={Contact}/>
         <Route path= '/psychic' component={Psychic}/>
         <Route path= '/shop' component={Shop}/>
+        <Route path= '/events' component={Events}/>
     </Switch>
 )

@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import {HashRouter} from 'react-router-dom';
 import './index.css';
 import App from './App';
+import './fonts/Berkshire_Swash/BerkshireSwash-Regular.ttf';
+import './fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

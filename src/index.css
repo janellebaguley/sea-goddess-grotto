@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: "Berkshire_Swash";
+  src: local("Berkshire_Swash"),
+  url("./fonts/Berkshire_Swash/BerkshireSwash-Regular.ttf") format("truetype");
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: "Playfair_Display";
+  src: local("Playfair_Display"),
+  url("./fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
+  font-weight: regular;
+}
