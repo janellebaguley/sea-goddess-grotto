@@ -19,7 +19,7 @@ class Header extends Component {
             <div>
                 <header className='container'>The Sea Goddess Grotto</header>
                 <section>
-                <HamburgerMenu 
+                {/* <HamburgerMenu 
                 isOpen = {this.state.open} 
                 menuClicked = {this.toggleDropdown}
                 width={30}
@@ -27,8 +27,8 @@ class Header extends Component {
                 color='white'
                 position='fixed'
                 z-index = {10}
-                justify-content = 'right'
-                />
+                justify-content = 'left'
+                /> */}
             
             {this.state.open
           ? (

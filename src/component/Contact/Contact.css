@@ -1,6 +1,14 @@
+@font-face {
+    font-family: "Playfair_Display";
+    src: local("Playfair_Display"),
+    url("../../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
+    font-weight: regular;
+  }
 .contact-me {
     box-sizing: border-box;
-    /* padding: 80px 20px; */
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Playfair_Display';
 }
 
 .contact-me h1 {
@@ -8,15 +16,18 @@
     font-size: 18px;
     text-align: center;
     color: rgb(123, 123, 123);
+    font-family: 'Playfair_Display';
 }
 
 .contact-me h2 {
     font-size: 32px;
     margin: 0;
+    font-family: 'Playfair_Display';
 }
 
 .contact-me h3 {
     font-size: 24px;
+    font-family: 'Playfair_Display';
 }
 
 .contact-info {
@@ -36,6 +47,7 @@
     padding-left: 10px;
     border: 1px solid #242424;
     font-size: 15px;
+    font-family: 'Playfair_Display';
     color: black;
 }
 
@@ -46,6 +58,7 @@
     border: 1px solid #242424;
     border-radius: 3px;
     font-size: 15px;
+    font-family: 'Playfair_Display';
 }
 
 .contact-form div {
@@ -66,6 +79,7 @@
     width: 100%;
     box-sizing: border-box;
     font-size: 15px;
+    font-family: 'Playfair_Display';
 }
 label {
     padding: 10px 0 8px 0;
@@ -76,7 +90,8 @@ label {
     bottom: 0;
     left: 0;
     font-size: 14px;
-    color: black;
+    font-family: 'Playfair_Display';
+    color: white;
 }
 .message {
     margin: 0 0 10px 0;
@@ -87,6 +102,7 @@ label {
 .submit-button {
     margin: 40px;
     font-size: 1rem;
+    font-family: 'Playfair_Display';
     width: 5rem;
     height: 2rem;
     border-radius: .5rem;

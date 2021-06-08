@@ -49,13 +49,12 @@
     min-height: 50%;
     font-size: 12px;
     text-transform: capitalize;
-    margin: 50px 0 0 0;
   }
   
   .demo-app-sidebar {
-    width: 300px;
+    width: 250px;
     line-height: 1.5;
-    background: #1D3557;
+    background: #4889E0;
     color: #F1FAEE;
     border-right: 1px solid #d3e2e8;
     text-transform: capitalize;
@@ -71,7 +70,7 @@
     padding: 3em;
     background-color: #F1FAEE;
     font-size: 14px;
-    color: #457B9D;
+    color: #4889E0;
     font-family: 'Playfair_Display';
     text-transform: capitalize;
     /* margin: .5em 0 10em 0; */

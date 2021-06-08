@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Playfair_Display";
+    src: local("Playfair_Display"),
+    url("../../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
+    font-weight: regular;
+  }
+  .shop {
+      width: 100vw;
+      height: 100vh;
+  }
