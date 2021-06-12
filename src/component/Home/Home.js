@@ -1,19 +1,15 @@
-import React, {Component} from 'react';
-
+import React from 'react';
 import octa from '../../assets/octa.png'
 import './Home.css'
 
-class Home extends Component {
-    constructor(){
-        super()
-    }
-    render(){
+function Home (){
+  
         return(
             <div >
                 <img src={octa} alt= 'tentacles' className='tentacles'/>
                 
             </div>
         )
-    }
+  
 }
 export default Home;
