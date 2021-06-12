@@ -33,12 +33,15 @@ class Header extends Component {
             {this.state.open
           ? (
                 <nav>
-                    <Link to ='/'>Home</Link>
-                    <Link to = '/shop'>Shop</Link>
-                    <Link to = '/events'>Events</Link>
-                    <Link to = '/blog'>Blog</Link>
-                    <Link to = '/contact'>Contact</Link>
-                    <Link to = '/about'>About</Link>
+                        <Link to ='/' >Home</Link>
+                        <Link to = '/performancesandevents' >Performances and Events</Link>
+                        <Link to = '/meetthemermaids' >Meet the Mermaids</Link>
+                        <Link to = '/gallery' >Gallery</Link>
+                        <Link to = '/blog' >Blog</Link>
+                        <Link to = '/contact' >Contact</Link>
+                        <Link to = '/faq' >FAQ</Link>
+                        <Link to = '/documents'>Documents</Link>
+                        <Link to = '/policies' >Policies</Link>
                 </nav>
             )
             : null}

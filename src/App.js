@@ -12,11 +12,14 @@ function App() {
       <footer className='footer'  >
                     <nav className='nav-links-f'>
                         <Link to ='/' className='nav-links-f'>Home</Link>
-                        <Link to = '/shop' className='nav-links-f'>Shop</Link>
-                        <Link to = '/events' className='nav-links-f'>Events</Link>
+                        <Link to = '/performancesandevents' className='nav-links-f'>Performances and Events</Link>
+                        <Link to = '/meetthemermaids' className='nav-links-f'>Meet the Mermaids</Link>
+                        <Link to = '/gallery' className='nav-links-f'>Gallery</Link>
                         <Link to = '/blog' className='nav-links-f'>Blog</Link>
                         <Link to = '/contact' className='nav-links-f'>Contact</Link>
-                        <Link to = '/about' className='nav-links-f'>About</Link>
+                        <Link to = '/faq' className='nav-links-f'>FAQ</Link>
+                        <Link to = '/documents' className='nav-links-f'>Documents</Link>
+                        <Link to = '/policies' className='nav-links-f'>Policies</Link>
                     </nav>
                     {/* <img /> */}
                     {/* <img /> */}
