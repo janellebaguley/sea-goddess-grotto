@@ -28,6 +28,7 @@ class Blog extends Component{
     return(
         <div>
             <section className='blog-container'>
+                <h1>Blog</h1>
                 {/* {this.state.posts?.map((posts) => (
                     <div key={this.state.posts.post_id}>
                         <section>
