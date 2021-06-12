@@ -1,43 +1,42 @@
 @font-face {
-  font-family: "Berkshire_Swash";
-  src: local("Berkshire_Swash"),
-  url("../../fonts/Berkshire_Swash/BerkshireSwash-Regular.ttf") format("truetype");
+  font-family: "AnnabelleJF";
+  src: local("AnnabelleJF"),
+  url("../../fonts/Annabelle/AnnabelleJF.ttf") format("truetype");
   font-weight: regular;
 }
-
+@font-face {
+  font-family: "Playfair_Display";
+  src: local("Playfair_Display"),
+  url("../../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
+  font-weight: regular;
+}
+header {
+  text-decoration: none;
+}
 .container {
-    /* position: fixed; */
-    text-decoration: none; 
+  text-decoration: none; 
    outline: none;
    box-sizing: border-box;
    background: #8627E0;
-   display: center;
+   display: flex;
    height: 90px;
-   padding: 5px;
-   color: white;
-   align-items: center;
-   font-size: 60px;
-   font-family: "Berkshire_Swash";
+   padding: 10px;
+  
   }
-
-  h1{
-    text-align: center;
+  h1 {
+    color: white;
+    font-size: 40px;
+    font-family: "AnnabelleJF";
+    margin: 1rem;
   }
 
   .nav-links {
    text-decoration: none;
    color: white;
-   padding: .5rem;
    display: flex;
-   align-items: left;
+   flex-direction: space-between;
    background: #8627E0;
-   z-index: 10;
- }  
- .container .nav-links {
-   padding: .5rem .5rem .3rem .5rem;
-   display: grid;
-   grid-template-columns: 1fr;
-   flex-direction: column;
-   margin: 0 0 0 40px;
-   z-index: 10;
- } 
+   margin: 2rem .5rem .5rem 0;
+   font-family: 'Playfair_Display';
+
+   }  

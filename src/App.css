@@ -10,12 +10,18 @@
   background-color: #4889E0;
   color: white;
   text-decoration: none;
+  
 }
 
 .footer {
  text-decoration: none;
  font-family: 'Playfair_Display';
+ background-color: #8627E0;
+ color: white;
+ height: 200px;
 }
-.nav-links {
+.nav-links-f {
   text-decoration: none;
+  color: white;
+  height: 300px;
 }

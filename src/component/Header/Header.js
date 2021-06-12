@@ -1,38 +1,13 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Link, withRouter} from 'react-router-dom';
 import HamburgerMenu from 'react-hamburger-menu'
 import './Header.css'
 
-class Header extends Component {
-    constructor(props){
-        super(props)
-        this.state = {
-            open: false
-    }
-}
-    toggleDropdown = () => {
-        this.setState({open: !this.state.open})
-    }
-
-    render(){
+function Header(){
         return(
             <div>
-                <header className='container'>The Sea Goddess Grotto</header>
-                <section>
-                {/* <HamburgerMenu 
-                isOpen = {this.state.open} 
-                menuClicked = {this.toggleDropdown}
-                width={30}
-                height={22}
-                color='white'
-                position='fixed'
-                z-index = {10}
-                justify-content = 'left'
-                /> */}
-            
-            {this.state.open
-          ? (
-                <nav>
+                <header className='container'><h1>The Sea Goddess Grotto</h1>
+                    <section className='nav-links'>
                         <Link to ='/' >Home</Link>
                         <Link to = '/performancesandevents' >Performances and Events</Link>
                         <Link to = '/meetthemermaids' >Meet the Mermaids</Link>
@@ -42,13 +17,9 @@ class Header extends Component {
                         <Link to = '/faq' >FAQ</Link>
                         <Link to = '/documents'>Documents</Link>
                         <Link to = '/policies' >Policies</Link>
-                </nav>
-            )
-            : null}
-            </section>
-                
+                    </section>
+                </header>
             </div>
         )
-    }
 }
 export default withRouter(Header)
