@@ -17,6 +17,7 @@ export default class MyCalendar extends Component {
  render() {
     return (
       <div className="demo-app">
+        <p>We love creating unique magical events custom tailored to your wishes! Our performance packages can be custom tailored to your needs by adding our ala carte event extras! </p>
         {this.renderSidebar()}
         <div className="demo-app-main">
           <FullCalendar

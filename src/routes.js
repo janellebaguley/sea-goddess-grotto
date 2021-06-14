@@ -18,7 +18,7 @@ export default (
         <Route path= '/blog' component={Blog}/>
         <Route path= '/contact' component={Contact}/>
         {/* <Route path= '/psychic' component={Psychic}/> */}
-        <Route path= '/shop' component={Shop}/>
+        <Route path= '/MER-chandise' component={Shop}/>
         <Route path= '/performancesandevents' component={MyCalendar}/>
         <Route path= '/meetthemermaids' component={Meet}/>
         <Route path= '/faq' component={FAQ}/>

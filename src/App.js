@@ -13,6 +13,7 @@ function App() {
                     <nav className='nav-links-f'>
                         <Link to ='/' className='nav-links-f'>Home</Link>
                         <Link to = '/performancesandevents' className='nav-links-f'>Performances and Events</Link>
+                        <Link to = '/MER-chandise' className='nav-links-f'>MER-chandise</Link>
                         <Link to = '/meetthemermaids' className='nav-links-f'>Meet the Mermaids</Link>
                         <Link to = '/gallery' className='nav-links-f'>Gallery</Link>
                         <Link to = '/blog' className='nav-links-f'>Blog</Link>

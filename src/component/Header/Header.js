@@ -21,6 +21,7 @@ class Header extends Component{
                     <nav className='desktop-menu'>
                         <Link to ='/' className='nav-links'>Home</Link>
                         <Link to = '/performancesandevents' className='nav-links' >Performances and Events</Link>
+                        <Link to = '/MER-chandise' className='nav-links'>MER-chandise</Link>
                         <Link to = '/meetthemermaids' className='nav-links'>Meet the Mermaids</Link>
                         <Link to = '/gallery' className='nav-links'>Gallery</Link>
                         <Link to = '/blog' className='nav-links'>Blog</Link>
@@ -35,6 +36,7 @@ class Header extends Component{
             <nav className='mobile-menu'>
                 <Link to ='/' className='nav-links'>Home</Link>
                 <Link to = '/performancesandevents'  className='nav-links'>Performances and Events</Link>
+                <Link to = '/MER-chandise' className='nav-links'>MER-chandise</Link>
                 <Link to = '/meetthemermaids' className='nav-links'>Meet the Mermaids</Link>
                 <Link to = '/gallery' className='nav-links'>Gallery</Link>
                 <Link to = '/blog' className='nav-links'>Blog</Link>
