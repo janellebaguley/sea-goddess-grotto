@@ -4,8 +4,9 @@ import './Faq.css'
 
 function Faq (){
     return(
-        <div className='meet'>
-            <h1>FAQ</h1>
+        <div className='faq-container'>
+            <h1 classname='faq-h1'>FAQ</h1>
+            <section  className='faq'>
             <p>Do you offer services for non profit organizations? Yes we do! If you are a non-profit organization please reach out to us for further information. We love giving back to our community! </p>
             <br/>
             <p>How are you an “inclusive” company? The Sea Goddess Grotto is run by an LGBTQ+ couple. We are both women of color, body positive, and Calypso is disabled (you can sometimes catch a few pictures of her service dog on Instagram!). We want everyone to feel comfortable and represented with our organization and do everything possible to make sure that goal is achieved. </p>
@@ -15,6 +16,7 @@ function Faq (){
             <p>Can you really swim in that tail? Yes! Calypso is fully trained in the use of her tail (and other costuming) with over a decade of professional mermaid experience. She is able to glide through the water just like a fish and can freedive up to 15 feet. </p>
             <br/>
             <p>Where do I get a mermaid tail? We offer custom tails via <Link to = '/contact'> request </Link> only, or there are lots of online resources for purchasing a tail. </p>
+            </section>
         </div>
     )
 }

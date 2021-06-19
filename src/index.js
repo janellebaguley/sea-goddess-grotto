@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import './fonts/Berkshire_Swash/BerkshireSwash-Regular.ttf';
 import './fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf';
+import './fonts/Liu_Jian_Mao_Cao/LiuJianMaoCao-Regular.ttf';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

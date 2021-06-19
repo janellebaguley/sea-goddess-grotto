@@ -1,12 +1,25 @@
 @font-face {
-    font-family: "Playfair_Display";
-    src: local("Playfair_Display"),
-    url("../../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
+    font-family: "Liu_Jian_Mao_Cao";
+    src: local("Liu_Jian_Mao_Cao"),
+    url("../../fonts/Liu_Jian_Mao_Cao/LiuJianMaoCao-Regular.ttf") format("truetype");
     font-weight: regular;
   }
-
+.faq-container {
+  width: 100vw;
+  height: 100vh;
+  color: black;
+}
 .faq {
-    width: 100vw;
-    height: 100vh;
-    font-family: 'Playfair_Display';
+    width: 90vw;
+    height: 90vh;
+    align-items: left;
+    padding: 1rem 2rem;
+    margin: 0 0 0 1rem;
+    font-family: 'Liu_Jian_Mao_Cao';
+    font-size: 24px;
+    color: black;
+}
+.faq p {
+  justify-content: left;
+  align-items: left;
 }

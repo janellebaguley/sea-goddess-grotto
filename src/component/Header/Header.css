@@ -11,6 +11,13 @@
   font-weight: regular;
 }
 
+@font-face {
+  font-family: "Liu_Jian_Mao_Cao";
+  src: local("Liu_Jian_Mao_Cao"),
+  url("../../fonts/Liu_Jian_Mao_Cao/LiuJianMaoCao-Regular.ttf") format("truetype");
+  font-weight: regular;
+}
+
 .header-container {
   height: 100px;
   color: white;
@@ -21,7 +28,7 @@
   background-color: #8627E0;
 }
 .header-container nav {
-  width: 800px;
+  width: 900px;
   display: flex;
   justify-content: space-evenly;
   padding: 50px;
@@ -31,12 +38,13 @@
   text-decoration: none;
   box-decoration-break: none;
   color: white;
-  font-size: 18px;
-  padding: 2rem 1.2rem .5rem .7rem;
+  font-size: 20px;
+  padding: 2rem .2rem .5rem .2rem;
+  margin: 5px 10px;
   outline: none;
-  font-family: 'Playfair_Display';
+  font-family: 'Liu_Jian_Mao_Cao';
 }
-h1 {
+.header-container h1 {
   font-family: 'AnnabelleJF';
   margin: 1.5rem;
 }

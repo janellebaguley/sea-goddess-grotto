@@ -24,3 +24,10 @@ code {
   url("./fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
   font-weight: regular;
 }
+
+@font-face {
+  font-family: "Liu_Jian_Mao_Cao";
+  src: local("Liu_Jian_Mao_Cao"),
+  url("./fonts/Liu_Jian_Mao_Cao/LiuJianMaoCao-Regular.ttf") format("truetype");
+  font-weight: regular;
+}
