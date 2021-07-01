@@ -15,6 +15,7 @@ function App() {
                         <Link to = '/performancesandevents' className='nav-links-f'>Performances and Events</Link>
                         <Link to = '/MER-chandise' className='nav-links-f'>MER-chandise</Link>
                         <Link to = '/meetthemermaids' className='nav-links-f'>Meet the Mermaids</Link>
+                        <Link to='/patron' className='nav-links-f'>Patron</Link>
                         <Link to = '/gallery' className='nav-links-f'>Gallery</Link>
                         <Link to = '/blog' className='nav-links-f'>Blog</Link>
                         <Link to = '/contact' className='nav-links-f'>Contact</Link>

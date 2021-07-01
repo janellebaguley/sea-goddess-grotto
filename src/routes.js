@@ -7,6 +7,7 @@ import Contact from './component/Contact/Contact'
 import Shop from './component/Shop/Shop'
 import Events from './component/Events/Events'
 import Meet from './component/Meet/Meet'
+import Patron from './component/Patron/Patron'
 import FAQ from './component/FAQ/Faq'
 import Documents from './component/Docs/Documents'
 import Policies from './component/Policies/Policies'
@@ -21,6 +22,7 @@ export default (
         <Route path= '/MER-chandise' component={Shop}/>
         <Route path= '/performancesandevents' component={Events}/>
         <Route path= '/meetthemermaids' component={Meet}/>
+        <Route path= '/patron' component={Patron}/>
         <Route path= '/faq' component={FAQ}/>
         <Route path= '/documents' component={Documents}/>
         <Route path= '/policies' component={Policies}/>
