@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
 import "react-image-gallery/styles/css/image-gallery.css";
-import Gallery from "react-image-gallery";
+import ImageGallery from "react-image-gallery";
 
 const Gallery = () => {
   const [images, setImages] = useState(null)  
@@ -22,8 +22,11 @@ const Gallery = () => {
     return () => shouldCancel = true
   }, [])  
   
-  return images ? <Gallery items={images} /> : null
+  return images ? <ImageGallery items={images} /> : null
 }
 export default Gallery
 
 // https://medium.com/@ValentinHervieu/how-i-used-google-photos-to-host-my-website-pictures-gallery-d49f037c8e3c
+// https://github.com/xiaolin/react-image-gallery
+// https://developers.google.com/photos
+// https://github.com/pradel/react-google-photo
