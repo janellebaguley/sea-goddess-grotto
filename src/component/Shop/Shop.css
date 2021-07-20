@@ -6,5 +6,7 @@
   }
   .shop {
       width: 100vw;
-      height: 100vh;
+      height: 195vh;
+      padding: 1rem 1rem;
+      background-color: #4889E0;
   }

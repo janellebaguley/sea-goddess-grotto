@@ -10,6 +10,7 @@
   background-color: #4889E0;
   color: white;
   text-decoration: none;
+  height: calc(150vh - 100px);
 }
 
 .footer {
@@ -17,7 +18,8 @@
  font-family: 'Playfair_Display';
  background-color: #8627E0;
  color: white;
- height: 80px;
+ height: 100px;
+ padding: 10px;
 }
 .nav-links-f {
   text-decoration: none;

@@ -6,12 +6,13 @@ import './Home.css'
 function Home (){
         return(
             <div >
-                <img src={lloni} alt= 'Mermaid Calypso' className='tentacles'/>
+                <div className = 'container'>
+                <p>San Diego's first inclusive mermaid performance company proving anyone can achieve their dream. <br/>Come create some magic with us!</p>
+                <img src={lloni} alt= 'Mermaid Calypso' className='big-photo'/>
                 <Link to = '/contact'><button className = 'btn'>Contact Us</button></Link> 
                 {/* <h2>The Sea Goddess Grotto</h2> */}
-                <p>San Diego's first inclusive mermaid performance company proving anyone can achieve their dreams</p>
-                <br/>
-                <p>Come create some magic with us!</p>
+                
+                </div>
             </div>
         )
   
