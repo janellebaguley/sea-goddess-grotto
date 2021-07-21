@@ -1,13 +1,13 @@
-@font-face {
+/* @font-face {
     font-family: "Liu_Jian_Mao_Cao";
     src: local("Liu_Jian_Mao_Cao"),
     url("../../fonts/Liu_Jian_Mao_Cao/LiuJianMaoCao-Regular.ttf") format("truetype");
     font-weight: regular;
-  }
+  } */
 .faq-container {
   width: 100vw;
-  height: 100vh;
-  color: black;
+  height: 110vh;
+  color: white;
 }
 .faq {
     width: 90vw;
@@ -15,11 +15,14 @@
     align-items: left;
     padding: 1rem 2rem;
     margin: 0 0 0 1rem;
-    font-family: 'Liu_Jian_Mao_Cao';
-    font-size: 24px;
-    color: black;
+    font-family: 'Playfair_Display';
+    font-size: 20px;
+    color: white;
 }
-.faq p {
+.faq-container h1 {
+  margin: 1rem 1.5rem;
+}
+.faq-container p {
   justify-content: left;
   align-items: left;
 }

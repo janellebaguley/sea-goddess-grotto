@@ -4,9 +4,20 @@
     url("../../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
     font-weight: regular;
   }
-  .shop {
+.shop {
       width: 100vw;
-      height: 195vh;
-      padding: 1rem 1rem;
+      height: 200vh;
       background-color: #4889E0;
-  }
+}
+.shop h1 {
+      margin: 1rem;
+}
+.shop h2 {
+    margin: 1rem;
+}
+.shop p {
+    margin: 1rem 1.5rem;
+}
+.shop b {
+    margin: 1rem 1.5rem;
+}

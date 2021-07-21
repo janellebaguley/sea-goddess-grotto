@@ -7,17 +7,17 @@
 
 .meet {
   width: 100vw;
-  height: 150vh;
+  height: 160vh;
   padding: 1rem 0;
   background-color: #4889E0;
     font-family: 'Playfair_Display';
 }
 .meet h1 {
-  margin: .5rem;
+  margin: .5rem 1rem .2rem 1rem;
 }
 .meet h2 {
-  margin: .5rem;
+  margin: .5rem 1rem .2rem 1rem;
 }
 .meet p {
-  margin: .5rem;
+  margin: 1rem 1.5rem;
 }

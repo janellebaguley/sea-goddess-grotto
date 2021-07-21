@@ -5,7 +5,7 @@ import './Faq.css'
 function Faq (){
     return(
         <div className='faq-container'>
-            <h1 classname='faq-h1'>FAQ</h1>
+            <h1 >FAQ</h1>
             <section  className='faq'>
             <p>Do you offer services for non profit organizations? Yes we do! If you are a non-profit organization please reach out to us for further information. We love giving back to our community! </p>
             <br/>
