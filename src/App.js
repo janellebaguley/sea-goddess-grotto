@@ -12,7 +12,7 @@ function App() {
       <footer className='footer'  >
                     <nav className='nav-links-f'>
                         <Link to ='/' className='nav-links-f'>Home</Link>
-                        {/* <Link to = '/performancesandevents' className='nav-links-f'>Performances and Events</Link> */}
+                        <Link to = '/performancesandevents' className='nav-links-f'>Performances and Events</Link>
                         <Link to = '/MER-chandise' className='nav-links-f'>MER-chandise</Link>
                         <Link to = '/meetthemermaids' className='nav-links-f'>Meet the Mermaids</Link>
                         {/* <Link to='/patron' className='nav-links-f'>Patron</Link> */}

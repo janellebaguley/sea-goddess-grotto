@@ -1,0 +1,30 @@
+.event-container {
+    width: 100vw;
+  height: 500vh;
+  color: white;
+  background-color: #4889E0;
+}
+.event {
+    width: 90vw;
+    height: 90vh;
+    align-items: left;
+    padding: 1rem 2rem;
+    margin: 0 0 0 1rem;
+    font-family: 'Playfair_Display';
+    font-size: 20px;
+    color: white;
+}
+
+.event-container h1 {
+    margin: 1rem 1.5rem;
+}
+.event-container h2 {
+    margin: 1rem 1.5rem;
+}
+.event-container h3 {
+    margin: 1rem 1.5rem;
+}
+.event-container p {
+    justify-content: left;
+  align-items: left;
+}

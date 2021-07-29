@@ -43,25 +43,30 @@
   padding: 2rem .2rem .5rem .2rem;
   margin: 5px 10px;
   outline: none;
-  font-family: 'Liu_Jian_Mao_Cao';
+  font-family: 'Playfair_Display';
 }
 .header-container h1 {
   font-family: 'AnnabelleJF';
   margin: 1.5rem;
 }
 .dropdown {
-  display: none;
+  position: relative;
+  display: inline-block;
+  margin: 0 3rem;
+  font-size: 28px;
+  font-family: 'AnnabelleJF';
 }
 .mobile-menu{
-  display: flex;
-  height: 250px;
-  width: 250px;
-  background-color: #3B3B3B;
-  position: fixed;
-  right: 0;
-  top: 125px;
-  flex-direction: column;
-  justify-content: space-evenly;
+  background-color: #8627E0;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 10;
+  }
+  .dropdown:hover .mobile-menu {
+    display: block;
   }
 
 @media(max-width: 768px) {

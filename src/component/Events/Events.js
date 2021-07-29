@@ -1,8 +1,10 @@
 import React from "react";
+import './Events.css'
 
 export default function Events() {
     return (
         <section className='event-container'>
+        <section className='event'>
         <p>We love creating unique magical events custom tailored to your wishes! Our performance packages can be custom tailored to your needs by adding our ala carte event extras! </p>
         <br/>
         <h2>Parties and Events</h2>
@@ -95,6 +97,7 @@ export default function Events() {
             <b>The mermaid and mertender are not responsible for the care of children, especially while swimming, and a parent or guardian must be present at all times. When swimming or at the beach parents/guardians must be able to assist children as needed.</b>
             <br/>
             <p>All bookings will require a signed policies and procedures form and a liability release.</p>
+        </section>
         </section>
     )
 }

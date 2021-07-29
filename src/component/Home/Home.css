@@ -29,6 +29,7 @@
   border-radius: 6px;
   width: 190px;
   color: black;
+  font-family: 'Playfair_Display';
 }
 .container .btn:hover {
   background-color: #4889E0;
