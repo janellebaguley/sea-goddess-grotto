@@ -6,8 +6,9 @@ class Shop extends Component {
     render(){
         return(
             <div className = 'shop'>
+                <h1>Website under construction, please contact us for details, photos and any inquiries!</h1>
             <h1>MER-chandise</h1>
-            <img />
+            
             <h2>Goddess Skirts Starting at $250</h2>
             <p>These gorgeous custom mermaid skirts will make you look and feel like a goddess! Each skirt is lovingly cut and sewn to your measurements. The skirts are twirl worthy, and perfect for a special occasion or just wearing for a day outing. They are comfortable and cool and made in your choice of iridescent colors (limited to what is in stock). All our skirts are made with high quality spandex They have a gorgeous trumpet style skirt that is flattering to any shape and have a matching, elastic free waistband for comfort. We’ve designed our goddess skirts to be sturdy and durable and to withstand playing at the beach or the park. With proper care (our skirts need to be rinsed after a visit to a beach or pool to maintain their shine) our skirts will bring you joy for many years. We think they are comfortable enough to wear as pajamas! The bottom hem is more than 270” around, skirts can vary in length. Our model is 5’8” and the skirt is 43” in length but can be shortened upon request. All our skirts come with a coordinating mask or pouch.</p>
             <br/>

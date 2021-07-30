@@ -22,6 +22,7 @@ function App() {
                         <Link to = '/faq' className='nav-links-f'>FAQ</Link>
                         {/* <Link to = '/documents' className='nav-links-f'>Documents</Link> */}
                         {/* <Link to = '/policies' className='nav-links-f'>Policies</Link> */}
+                    {/* <a href='https://www.instagram.com/seagoddessgrotto/'><img src= {} alt='instagram'/></a> */}
                     </nav>
                     {/* <img /> */}
                     {/* <img /> */}

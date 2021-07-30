@@ -1,15 +1,22 @@
 require('dotenv').config()
 const express = require('express'),
       ctrl = require('./controllers/mailController'),
-      blogCtrl = require('./controllers/blogController')
-const {SERVER_PORT, CONNECTION_STRING, SESSION_SECRET} = process.env
+      massive = require('massive')
+const {SERVER_PORT} = process.env
 const app = express()
 app.use(express.json())
 
-//nodemailer endpoint
-app.post('/api/mail', ctrl.email)
+massive({
+    connectionString: CONNECTION_STRING,
+    ssl: {rejectUnauthorized: false}
+})
+.then((db) => {
+    app.set('db', db)
+    console.log('db connected')
+})
 
-//blog
-app.get('/api/blog/:id', blogCtrl.getPosts)
+//nodemailer endpoint
+app.post('/api/email', ctrl.email)
+
 
 app.listen(SERVER_PORT, () => console.log(`Running on port: ${SERVER_PORT}`))
