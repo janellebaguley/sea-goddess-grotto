@@ -7,7 +7,7 @@ function Meet (){
             <h1>Meet the Mermaids</h1>
             <br/>
             <h2>Calypso Mahina:</h2>
-            <img/>
+            
             <br/>
             <p>
             Calypso was born in the beautiful tide pools in La Jolla in 1888. She adores the entire coastline of Southern California, but currently calls the beaches of Del Mar home. Calypso met her wife, Luna, while exploring a remote beach. Together Calypso and Luna decided to follow their dream and live on land among the humans. Although she grew up in the wild Pacific waters and returns home frequently, she adores living among humans and experiencing their unique lifestyles, whimsical homes, and modern comforts. She is able to transform from her fins to feet as she wishes, but even in her human form she chooses to always adorn herself with reminders of her ocean home. Calypso loves children and seeing the joy on their faces when they get to meet a real mermaid. She also can be a bit of a salty siren with the adults and loves to tease. Calypso loves singing and entertaining humans of all ages and backgrounds. She also loves using some of her mermaid magic to let others feel the joy of being a mermaid as well. During her off time Calypso can be found exploring her San Diego home, travelling, and investigating new humans and their strange technology and creations.
@@ -15,7 +15,7 @@ function Meet (){
             <br/>
             <br/>
             <h2>Luna the Sea Nymph</h2>
-            <img/>
+           
             <br/>
             <p>
             Luna was born in 1891 on Miraflores Beach in Lima, Peru. Luna wasn’t gifted with a tail, but is instead a spirit of the water. She enjoys collecting shells and materials on the beach and using them to make magical accessories and art. Luna is very adventurous and loves to explore the world around her. She met Calypso while out adventuring on the beach one day, and they’ve been inseparable since. Luna loves going to parties with Calypso and meeting new children. She’s very protective of Calypso (especially when she doesn’t have her land legs) and will help her out at events. Luna is also fond of any furry creature, but especially loves land seals!  

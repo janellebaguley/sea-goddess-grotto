@@ -24,7 +24,7 @@ class Shop extends Component {
             <br/>
             <b>Shipping within the United States is included with the cost. For international orders, please contact us before purchase as shipping/production time and cost will vary.</b>
             <br/>
-            <img/>
+            
             <br/>
             <h2>Mini-Goddess Skirt Starting at $150</h2>
             <br/>
@@ -40,7 +40,7 @@ class Shop extends Component {
             <br/>
             <b>Shipping within the United States is included with the cost. For international orders, please contact us before purchase as shipping/production time and cost will vary.</b>
             <br/>
-            <img />
+            
             <h2>Custom Kraken Resin Necklaces Starting at $75</h2>
             <p>Handmade by Calypso herself these necklaces are imbued with mermaid magic and made with real crystals, shells, and pearls. Each kraken is a unique resin pour in your choice of colors and can be made with color shifting pigments or matte pigments. Glitter added at no extra charge. To be ocean friendly all glitter is completely encapsulated inside the resin. We only use hypoallergenic silver plated findings. We will match crystals and beads to your specified colors.  The kraken will also be adorned with a few small crystals and beads to match your necklace.  </p>
             <br/>

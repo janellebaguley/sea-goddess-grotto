@@ -4,119 +4,140 @@
     url("../../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
     font-weight: regular;
   }
-  .contact-us {
+  .contact-me {
     box-sizing: border-box;
-    padding: 100px 20px;
+    font-family: 'Playfair_Display';
 }
 
-.contact-us h1 {
-    margin-bottom: 40px;
-    font-size: 30px;
+.contact-me h1 {
+    margin-bottom: 5px;
+    font-size: 18px;
     text-align: center;
-    color: lightgray;
+    color: rgb(123, 123, 123);
+    font-family: 'Playfair_Display';
 }
 
-.contact-us h2 {
+.contact-me h2 {
     font-size: 32px;
+    margin: 0;
+    font-family: 'Playfair_Display';
 }
 
-.contact-us h3 {
+.contact-me h3 {
     font-size: 24px;
+    font-family: 'Playfair_Display';
+}
+.contact-me span {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.contact-me label {
+    margin-bottom: 5px;
 }
 
-.contact-us-info {
+.contact-info {
     box-sizing: border-box;
     padding: 20px 0;
     margin-bottom: 40px;
-    border-top: 1px solid #FF6400;
+    font-family: 'Playfair_Display';
 }
 
-
-.contact-us-form {
+.contact-form {
     display: flex;
     flex-direction: column;
+    font-family: 'Playfair_Display';
 }
 
-.contact-us-form input {
-    height: 44px;
+.contact-form input {
+    height: 40px;
     box-sizing: border-box;
     padding-left: 10px;
-    border: 1px solid #646464;
-    border-radius: 3px;
+    border: 1px solid #242424;
     font-size: 15px;
+    color: black;
+    font-family: 'Playfair_Display';
 }
 
-.contact-us-form textarea {
+.contact-form textarea {
     height: 100px;
     box-sizing: border-box;
     padding: 10px;
-    border: 1px solid #646464;
+    border: 1px solid #242424;
     border-radius: 3px;
     font-size: 15px;
-    font-family: sans-serif;
+    font-family: 'Playfair_Display';
 }
 
-.contact-us-form div {
+.contact-form div {
     height: 75px;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    font-family: 'Playfair_Display';
 }
 
 .name-input {
-    width: 47%;
+    width: 50%;
     position: relative;
+    margin: 0 20px 0 5px;
+    font-family: 'Playfair_Display';
 }
 
 .name-input input {
-    height: 44px;
+    height: 40px;
     width: 100%;
     box-sizing: border-box;
     padding-left: 10px;
     font-size: 15px;
+    font-family: 'Playfair_Display';
 }
 
-.name-span {
-    position: absolute;
+.name {
+    position: absolute; 
+    padding: 5px 0 0 12px;
     bottom: 0;
     left: 0;
     font-size: 14px;
-    color: #646464;
+    margin-bottom: 10px;
+    color: white;
+    font-family: 'Playfair_Display';
 }
-
-.message-sent-section {
+.message {
+    margin: 0 0 10px 0;
+    font-family: 'Playfair_Display';
+}
+.message-sent {
     text-align: center;
+    font-family: 'Playfair_Display';
 }
-
-@media(min-width: 641px){
-    .contact-us {
-        padding: 150px 75px 100px 75px;
-    }
-
-    .contact-us h1 {
-        font-size: 75px;
-    }
-
-    .contact-us-image {
-        height: 375px;
-    }
+.submit-button {
+    margin: 40px;
+    height: 40px;
+    font-size: 24px;
+    width: 100px;
+    font-family: 'Playfair_Display';
 }
-
-@media(min-width: 761px){
-    .contact-us {
+.home-btn {
+    margin: 40px;
+    font-family: 'Playfair_Display';
+}
+@media(min-width: 768px){
+    .contact-me {
         padding: 150px 150px 100px 150px;
     }
-}
-
-@media(min-width: 901px){
-    .contact-us {
-        padding: 200px 200px 100px 200px;
+    .home-btn {
+        margin: 20px;
     }
 }
 
-@media(min-width: 1101px){
-    .contact-us {
-        width: 1100px;
-        margin: 0 auto;
+@media(min-width: 570px){
+    .contact-me {
+        padding: 150px 75px 100px 75px;
     }
+    .home-btn {
+        margin: 10px;
+    }
+    .contact-me h1 {
+        font-size: 75px;
+    }  
 }
