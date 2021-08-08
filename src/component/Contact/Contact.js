@@ -59,7 +59,7 @@ const Contact = props => {
                     </form>
                 ) 
                 : (
-                    <section>
+                    <section height='120vh'>
                         <h2>Your message was sent.</h2>
                         <h3>We will reply to your request as soon as  possible.</h3>
                         <button onClick={() => setMessageSent(false)}>New Message</button>

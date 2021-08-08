@@ -1,18 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {HashRouter} from 'react-router-dom';
+import {HashRouter, BrowserRouter}} from 'react-router-dom';
 import './index.css';
 import App from './App';
 import './fonts/Berkshire_Swash/BerkshireSwash-Regular.ttf';
 import './fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf';
 import './fonts/Liu_Jian_Mao_Cao/LiuJianMaoCao-Regular.ttf';
 import reportWebVitals from './reportWebVitals';
+const Router = process.env.NODE_ENV === 'development' ? HashRouter : BrowserRouter;
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter>
+    <Router>
       <App />
-    </HashRouter>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
