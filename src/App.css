@@ -25,3 +25,19 @@
   text-decoration: none;
   color: white;
 }
+@media(min-width: 768px){
+
+}
+@media(min-width: 570px){
+  .footer {
+    font-size: 10px;
+    height: 50px;
+    padding: 0;
+  }
+  .nav-links-f {
+    font-size: 10px;
+  }
+  .app {
+    height: 600px;
+  }
+}

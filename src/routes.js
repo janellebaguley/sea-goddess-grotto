@@ -11,7 +11,7 @@ import Patron from './component/Patron/Patron'
 import FAQ from './component/FAQ/Faq'
 import Documents from './component/Docs/Documents'
 import Policies from './component/Policies/Policies'
-import Gallery from './component/Gallery/Gallery'
+// import Gallery from './component/Gallery/Gallery'
 
 export default (
     <Switch>
@@ -26,6 +26,6 @@ export default (
         <Route path= '/faq' component={FAQ}/>
         <Route path= '/documents' component={Documents}/>
         <Route path= '/policies' component={Policies}/>
-        <Route path= '/gallery' component={Gallery}/>
+        {/* <Route path= '/gallery' component={Gallery}/> */}
     </Switch>
 )

@@ -1,6 +1,6 @@
 .event-container {
     width: 100vw;
-  height: 620vh;
+  height: 600vh;
   color: white;
   background-color: #4889E0;
 }
@@ -27,4 +27,31 @@
 .event-container p {
     justify-content: left;
   align-items: left;
+}
+@media(max-width: 570px){
+.event {
+    height: 800vh;
+    color: white;
+    background-color: #4889E0;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.event-container h1 {
+    font-size: 18px;
+}
+.event-container h2 {
+    font-size: 16px;
+}
+.event-container h3 {
+    font-size: 12px;
+}
+.event-container p {
+    font-size: 12px;
+}
+.event-container b {
+    font-size: 14px;
+}
+.event-container li {
+    font-size: 12px;
+}
 }

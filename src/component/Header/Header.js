@@ -26,7 +26,7 @@ class Header extends Component{
                 <Link to = '/performancesandevents'  className='nav-links'>Performances and Events</Link>
                 <Link to = '/MER-chandise' className='nav-links'>MER-chandise</Link>
                 <Link to = '/meetthemermaids' className='nav-links'>Meet the Mermaids</Link>
-                <Link to = '/gallery' className='nav-links'>Gallery</Link>
+                {/* <Link to = '/gallery' className='nav-links'>Gallery</Link> */}
                 {/* <Link to = '/blog' className='nav-links'>Blog</Link> */}
                 <Link to = '/contact' className='nav-links'>Contact</Link>
                 <Link to = '/faq' className='nav-links'>FAQ</Link>

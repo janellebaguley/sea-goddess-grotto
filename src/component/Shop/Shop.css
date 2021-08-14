@@ -6,7 +6,7 @@
   }
 .shop {
       width: 100vw;
-      height: 250vh;
+      height: 320vh;
       background-color: #4889E0;
 }
 .shop h1 {
@@ -20,4 +20,15 @@
 }
 .shop b {
     margin: 1rem 1.5rem;
+}
+.skirt {
+    height: 13%;
+    width: 10%;
+    margin: 0 0 0 2rem;
+}
+
+.kraken {
+    height: 11%;
+    width: 20%;
+    margin: 0 0 0 2rem;
 }

@@ -7,7 +7,7 @@
 
 .meet {
   width: 100vw;
-  height: 160vh;
+  height: 220vh;
   padding: 1rem 0;
   background-color: #4889E0;
     font-family: 'Playfair_Display';
@@ -20,4 +20,9 @@
 }
 .meet p {
   margin: 1rem 1.5rem;
+}
+.landr {
+  height: 18%;
+  width: 25%;
+  margin: 0 0 0 2rem;
 }
