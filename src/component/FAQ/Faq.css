@@ -6,15 +6,18 @@
   } */
 .faq-container {
   width: 100vw;
-  height: 110vh;
+  height: 130vh;
   color: white;
+  margin-right: 10px;
+  background-color: #4889E0;
+  padding: 10px 0 0 0;
 }
 .faq {
     width: 90vw;
     height: 90vh;
     align-items: left;
     padding: 1rem 2rem;
-    margin: 0 0 0 1rem;
+    margin: 0 1rem 0 1rem;
     font-family: 'Playfair_Display';
     font-size: 20px;
     color: white;
@@ -25,4 +28,23 @@
 .faq-container p {
   justify-content: left;
   align-items: left;
+}
+@media(max-width: 768px){
+  .faq-container {
+    padding: 0 0 20px 0;
+  }
+  .faq-container h1 {
+    font-size: 22px;
+  }
+  .faq-container p {
+    font-size: 16px;
+    margin-right: 2rem;
+  }
+}
+
+@media(max-width: 570px){
+  .faq-container {
+    padding: 10px 0 10px 0;
+    height: 160vh;
+  }
 }

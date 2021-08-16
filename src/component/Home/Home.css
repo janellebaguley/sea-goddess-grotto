@@ -5,6 +5,9 @@
 }
 .container {
   position: relative;
+  background-color: #4889E0;
+  color: white;
+  height: 125vh;
   
 }
 .container p {
@@ -42,13 +45,57 @@
     padding: 10px;
     margin: 20px 10px;
   }
-  @media(min-width: 768px){
+  @media(max-width: 768px){
+    
+    .big-photo{
+      width: 750px;
+      height: 650px;
+      margin: 0;
+      }
+      .container .btn {
+        font-size: 26px;
+        top: 70%;
+        width: 150px;
+        left: 87%;
+      }
+      
+      .container p{
+        font-size: 14px;
+        margin: 20px;
+        align-items: center;
+       }
+       .container {
+         height: 105vh;
+       }
+  }
 
+  @media(max-width: 650px){
+    
+    .big-photo{
+      width: 600px;
+      height: 500px;
+      margin: 0;
+      }
+      .container .btn {
+        font-size: 24px;
+        top: 80%;
+        width: 150px;
+        left: 87%;
+      }
+      
+      .container p{
+        font-size: 14px;
+        margin: 20px;
+        align-items: center;
+       }
+       .container {
+         height: 85vh;
+       }
   }
   @media(max-width: 570px){
     .big-photo{
-    width: 320px;
-    height: 320px;
+    width: 550px;
+    height: 400px;
     margin: 0;
 
     }
@@ -57,10 +104,14 @@
       top: 80%;
       width: 100px;
     }
-    
+    .container{
+      height: 65vh;
+      padding: 0 0 20px 0;
+    }
     .container p{
       font-size: 8px;
       margin: 12px;
+      padding: 0 0 10px 0;
     }
     
   }

@@ -11,10 +11,10 @@ function App() {
       {routes}
       <footer className='footer'  >
                     <nav className='nav-links-f'>
-                        <Link to ='/' className='nav-links-f'>Home</Link>
-                        <Link to = '/performancesandevents' className='nav-links-f'>Performances and Events</Link>
-                        <Link to = '/MER-chandise' className='nav-links-f'>MER-chandise</Link>
-                        <Link to = '/meetthemermaids' className='nav-links-f'>Meet the Mermaids</Link>
+                        <Link to ='/' className="nav-links-f nowrap">Home</Link>
+                        <Link to = '/performancesandevents' className="nav-links-f nowrap">Performances and Events</Link>
+                        <Link to = '/MER-chandise' className="nav-links-f nowrap">MER-chandise</Link>
+                        <Link to = '/meetthemermaids' className="nav-links-f nowrap wrap">Meet the Mermaids</Link>
                         {/* <Link to='/patron' className='nav-links-f'>Patron</Link> */}
                         {/* <Link to = '/gallery' className='nav-links-f'>Gallery</Link> */}
                         {/* <Link to = '/blog' className='nav-links-f'>Blog</Link> */}

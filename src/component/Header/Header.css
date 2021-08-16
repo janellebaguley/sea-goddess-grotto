@@ -70,7 +70,19 @@
   }
 
 @media(max-width: 768px) {
-
+  .header-container {
+    font-size: 12px;
+  }
+  .mobile-menu {
+    font-size: 12px;
+  }
+  .nav-links {
+    font-size: 14px;
+    padding: .2rem;
+  }
+  .header-container nav {
+    width: 500px;
+  }
 }
 @media(max-width: 570px){
   .header-container {
@@ -80,6 +92,13 @@
     font-size: 10px;
   }
   .dropdown {
-    font-size: 20px;
+    font-size: 14px;
+  }
+  .header-container nav {
+    width: 280px;
+  }
+  .nav-links {
+    font-size: 10px;
+    padding: 0rem;
   }
 }

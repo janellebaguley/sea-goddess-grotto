@@ -6,8 +6,9 @@
   }
 .shop {
       width: 100vw;
-      height: 320vh;
+      height: 330vh;
       background-color: #4889E0;
+      padding: 10px 10px 0 0;
 }
 .shop h1 {
       margin: 1rem;
@@ -31,4 +32,38 @@
     height: 11%;
     width: 20%;
     margin: 0 0 0 2rem;
+}
+@media(max-width: 768px){
+ .shop {
+     height: 340vh;
+ }
+ .shop h1 {
+     font-size: 22px;
+ }
+ .shop h2 {
+     font-size: 18px;
+ }
+ .shop p {
+     font-size: 16px;
+ }
+
+ .kraken {
+     height: 8%;
+ }
+ .skirt {
+     width: 25%;
+     height: 18%;
+ }
+}
+@media(max-width: 570px){
+    .shop {
+        height: 510vh;
+        padding: 10px 0 10px 10px;
+    }
+    .kraken {
+        height: 5%;
+    }
+    .skirt {
+        height: 10%;
+    }
 }

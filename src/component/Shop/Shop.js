@@ -63,7 +63,7 @@ class Shop extends Component {
             Shipping within the United States is included with the cost. For international orders, please contact us before purchase as shipping/production time and cost will vary.
             </b>
             <br/>
-            <p>We also make our own mermaid tiaras, tops, and tails upon request. Please <Link to = '/contact'>contact</Link> us if you would like to inquire about ordering something unique for your event or special day! </p>
+            <p>We also make our own mermaid tiaras, tops, and tails upon request. Please <Link to = '/contact' >contact</Link> us if you would like to inquire about ordering something unique for your event or special day! </p>
             </div>
         )
     }
