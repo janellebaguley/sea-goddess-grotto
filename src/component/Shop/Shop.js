@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {withRouter, Link} from 'react-router-dom'
 import './Shop.css';
+import goddess from './goddess_skirt.png';
+import kraken from './kraken_necklace.png';
 
 class Shop extends Component {
     render(){
@@ -8,8 +10,8 @@ class Shop extends Component {
             <div className = 'shop'>
                 <h1>Website under construction, please contact us for details, photos and any inquiries!</h1>
             <h1>MER-chandise</h1>
-            
             <h2>Goddess Skirts Starting at $250</h2>
+            <img src={goddess} alt='skirt' class='skirt'/>
             <p>These gorgeous custom mermaid skirts will make you look and feel like a goddess! Each skirt is lovingly cut and sewn to your measurements. The skirts are twirl worthy, and perfect for a special occasion or just wearing for a day outing. They are comfortable and cool and made in your choice of iridescent colors (limited to what is in stock). All our skirts are made with high quality spandex They have a gorgeous trumpet style skirt that is flattering to any shape and have a matching, elastic free waistband for comfort. We’ve designed our goddess skirts to be sturdy and durable and to withstand playing at the beach or the park. With proper care (our skirts need to be rinsed after a visit to a beach or pool to maintain their shine) our skirts will bring you joy for many years. We think they are comfortable enough to wear as pajamas! The bottom hem is more than 270” around, skirts can vary in length. Our model is 5’8” and the skirt is 43” in length but can be shortened upon request. All our skirts come with a coordinating mask or pouch.</p>
             <br/>
             <p>
@@ -42,6 +44,7 @@ class Shop extends Component {
             <br/>
             
             <h2>Custom Kraken Resin Necklaces Starting at $75</h2>
+            <img src={kraken} alt="kraken necklace" class='kraken'/>
             <p>Handmade by Calypso herself these necklaces are imbued with mermaid magic and made with real crystals, shells, and pearls. Each kraken is a unique resin pour in your choice of colors and can be made with color shifting pigments or matte pigments. Glitter added at no extra charge. To be ocean friendly all glitter is completely encapsulated inside the resin. We only use hypoallergenic silver plated findings. We will match crystals and beads to your specified colors.  The kraken will also be adorned with a few small crystals and beads to match your necklace.  </p>
             <br/>
             <p>
@@ -60,7 +63,7 @@ class Shop extends Component {
             Shipping within the United States is included with the cost. For international orders, please contact us before purchase as shipping/production time and cost will vary.
             </b>
             <br/>
-            <p>We also make our own mermaid tiaras, tops, and tails upon request. Please <Link to = '/contact'>contact</Link> us if you would like to inquire about ordering something unique for your event or special day! </p>
+            <p>We also make our own mermaid tiaras, tops, and tails upon request. Please <Link to = '/contact' >contact</Link> us if you would like to inquire about ordering something unique for your event or special day! </p>
             </div>
         )
     }

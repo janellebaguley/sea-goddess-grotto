@@ -7,17 +7,51 @@
 
 .meet {
   width: 100vw;
-  height: 160vh;
+  height: 270vh;
   padding: 1rem 0;
   background-color: #4889E0;
     font-family: 'Playfair_Display';
 }
-.meet h1 {
-  margin: .5rem 1rem .2rem 1rem;
+
+.landr {
+  height: 18%;
+  width: 25%;
+  margin: 0 0 0 2rem;
 }
-.meet h2 {
-  margin: .5rem 1rem .2rem 1rem;
+@media(max-width: 768px){
+  .meet {
+    height: 300vh;
+    padding-bottom: 20px;
+  }
+  .meet h1 {
+    font-size: 22px;
+  }
+  .meet h2 {
+    font-size: 18px;
+  }
+  .meet p {
+    font-size: 16px;
+  }
+  .landr {
+    height: 14%;
+  }
 }
-.meet p {
-  margin: 1rem 1.5rem;
+@media(max-width: 570px){
+  .meet {
+    height: 300vh;
+    background-color: #4889E0;
+    padding: 10px 5px 40px 5px;
+  }
+  .meet h1 {
+    font-size: 18px;
+  }
+  .meet h2 {
+    font-size: 16px;
+  }
+  .meet p {
+    font-size: 14px;
+  }
+  .landr {
+    height: 8%;
+  }
 }

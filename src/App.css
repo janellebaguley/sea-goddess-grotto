@@ -7,10 +7,9 @@
  
 .App {
   /* text-align: center; */
-  background-color: #4889E0;
-  color: white;
+  /* background-color: #4889E0; */
+  /* color: white; */
   text-decoration: none;
-  height: calc(150vh - 100px);
 }
 
 .footer {
@@ -19,9 +18,155 @@
  background-color: #8627E0;
  color: white;
  height: 100px;
+ margin: 0px;
  padding: 10px;
 }
 .nav-links-f {
   text-decoration: none;
   color: white;
+  font-size: 24px;
+  padding: 20px 0 0 0;
 }
+@media (max-width: 768px) 
+{
+  .footer {
+    height: 90px;
+    padding: 20px 0 0 0;
+  }
+  .nav-links-f {
+    font-size: 13px;
+    margin: 20px 0 0 0;
+  }
+}
+@media(max-width: 650px){
+  
+  .nav-links-f {
+    font-size: 8px;
+    margin: 10px;
+  }
+}
+
+@media(max-width: 570px){
+  .footer {
+    font-size: 10px;
+    height: 100px;
+    max-width: 500px;
+    padding: 5px;
+  }
+  .nav-links-f {
+    font-size: 10px;
+    margin: 5px;
+    /* white-space: nowrap; */
+  }
+  .nowrap {
+    white-space: nowrap;
+  }
+  .wrap {
+    display: inline-block;;
+  }
+  
+  .app {
+    height: 100vh;
+  }
+}
+/* @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+/* @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+} */
+
+/* Landscape */
+/* @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+} */
+/* @media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+
+}  */
+
+/* Portrait */
+/* @media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+
+} */
+
+/* Landscape */
+/* @media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: landscape) {
+
+} */
+
+/* Portrait and Landscape */
+/* @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+} */
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+/* @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+} */
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+/* @media only screen 
+  and (min-device-width: 1366px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+} */
+/* @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+} */
+
+/* Portrait */
+/* @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+} */
+
+/* Landscape */
+/* @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+} */

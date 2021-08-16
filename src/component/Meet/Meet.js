@@ -1,10 +1,11 @@
 import React from 'react'
 import './Meet.css'
-
+import landr from './loni_and_rach.png';
 function Meet (){
     return(
         <div className='meet'>
             <h1>Meet the Mermaids</h1>
+            <img src={landr} alt='loni and rach' class='landr'/>
             <br/>
             <h2>Calypso Mahina:</h2>
             
