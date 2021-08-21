@@ -36,22 +36,26 @@
     height: 14%;
   }
 }
-@media(max-width: 570px){
+@media(max-width: 320px){
   .meet {
-    height: 300vh;
+    width: 94vw;
+    height: 230vh;
     background-color: #4889E0;
-    padding: 10px 5px 40px 5px;
+    padding: 10px 10px 40px 10px;
   }
   .meet h1 {
-    font-size: 18px;
+    font-size: 10px;
+    margin: 0 5px;
   }
   .meet h2 {
-    font-size: 16px;
+    font-size: 10px;
+    margin: 0 5px;
   }
   .meet p {
-    font-size: 14px;
+    font-size: 10px;
+    margin: 0 5px;
   }
   .landr {
-    height: 8%;
+    height: 6%;
   }
 }

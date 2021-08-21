@@ -133,17 +133,89 @@
     }
 }
 
-@media(max-width: 570px){
+@media(max-width: 320px){
     .contact-me {
-        padding: 50px 75px 10px 75px;
-        height: 110vh;
+        padding: 20px 75px 5px 35px;
+        height: 100vh;
     }
     .contact-me h1 {
-        font-size: 50px;
+        font-size: 10px;
     }  
     .submit-button {
-        font-size: 20px;
-        height: 34px;
-        width: 110px;
+        font-size: 14px;
+        height: 24px;
+        width: 80px;
+    }
+    .name {
+        font-size: 10px;
+        width: 120px;
+    }
+    .contact-me h2 {
+        font-size: 10px;
+    }
+    .contact-me h3 {
+        font-size: 10px;
+    }
+    .contact-me span {
+        font-size: 10px;
+    }
+    .contact-me label {
+        margin-bottom: 5px;
+        width: 100px;
+    }
+    
+    .contact-info {
+        box-sizing: border-box;
+        padding: 20px 0;
+        margin-bottom: 5px;
+    }
+    
+    .contact-form {
+        font-size: 10px;
+        width: 80vw;
+    }
+    
+    .contact-form input {
+        height: 20px;
+        box-sizing: border-box;
+        padding-left: 5px;
+        border: 1px solid #242424;
+        font-size: 10px;
+    }
+    
+    .contact-form textarea {
+        height: 100px;
+        box-sizing: border-box;
+        padding: 5px;
+        border: 1px solid #242424;
+        border-radius: 3px;
+        font-size: 10px;
+    }
+    
+    .contact-form div {
+        height: 55px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+    }
+    
+    .name-input {
+        position: relative;
+        font-size: 10px;
+    }
+    
+    .name-input input {
+        height: 20px;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 10px;
+    }
+    
+    .message {
+        font-size: 10px;
+    }
+    .message-sent {
+        font-size: 10px;
     }
 }

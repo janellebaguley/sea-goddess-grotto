@@ -40,7 +40,9 @@ class Shop extends Component {
             Please note that these are custom crafted and ordered. Production time can take up to 3 weeks (but we always try to get them done quicker!). 
             </p>
             <br/>
-            <b>Shipping within the United States is included with the cost. For international orders, please contact us before purchase as shipping/production time and cost will vary.</b>
+            <b>Shipping within the United States is included with the cost. </b>
+            <br/>
+            <b>For international orders, please contact us before purchase as shipping/production time and cost will vary.</b>
             <br/>
             
             <h2>Custom Kraken Resin Necklaces Starting at $75</h2>
@@ -60,7 +62,9 @@ class Shop extends Component {
             </p>
             <br/>
             <b>
-            Shipping within the United States is included with the cost. For international orders, please contact us before purchase as shipping/production time and cost will vary.
+            Shipping within the United States is included with the cost.</b>
+            <br/>
+            <b>For international orders, please contact us before purchase as shipping/production time and cost will vary.
             </b>
             <br/>
             <p>We also make our own mermaid tiaras, tops, and tails upon request. Please <Link to = '/contact' >contact</Link> us if you would like to inquire about ordering something unique for your event or special day! </p>

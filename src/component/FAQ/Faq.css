@@ -42,9 +42,15 @@
   }
 }
 
-@media(max-width: 570px){
+@media(max-width: 320px){
   .faq-container {
     padding: 10px 0 10px 0;
-    height: 160vh;
+    height: 130vh;
+  }
+  .faq-container h1 {
+    font-size: 10px;
+  }
+  .faq-container p {
+    font-size: 10px;
   }
 }

@@ -72,7 +72,7 @@
   @media(max-width: 650px){
     
     .big-photo{
-      width: 600px;
+      width: 100vw;
       height: 500px;
       margin: 0;
       }
@@ -92,26 +92,25 @@
          height: 85vh;
        }
   }
-  @media(max-width: 570px){
+  @media(max-width: 320px){
     .big-photo{
-    width: 550px;
-    height: 400px;
+    width: 100vw;
+    height: 50vh;
     margin: 0;
 
     }
     .container .btn {
       font-size: 16px;
-      top: 80%;
+      top: 40%;
       width: 100px;
     }
     .container{
-      height: 65vh;
-      padding: 0 0 20px 0;
+      height: 55vh;
+      padding: 0 0 15px 0;
     }
     .container p{
       font-size: 8px;
       margin: 12px;
-      padding: 0 0 10px 0;
     }
     
   }

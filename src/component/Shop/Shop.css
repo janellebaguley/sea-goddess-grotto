@@ -55,15 +55,29 @@
      height: 18%;
  }
 }
-@media(max-width: 570px){
+@media(max-width: 320px){
     .shop {
-        height: 510vh;
+        width: 97vw;
+        height: 410vh;
         padding: 10px 0 10px 10px;
     }
     .kraken {
-        height: 5%;
+        height: 3%;
     }
     .skirt {
-        height: 10%;
+        height: 6%;
+    }
+    .shop h1 {
+    font-size: 10px;
+    }
+    .shop h2 {
+    font-size: 10px;
+    }
+    .shop p {
+    font-size: 10px;
+    }
+    .shop b {
+    font-size: 8px;
+    margin: 0 5px;
     }
 }
