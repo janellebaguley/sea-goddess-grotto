@@ -29,7 +29,7 @@
   
 }
 .header-container nav {
-  width: 900px;
+  width: 80vw;
   display: flex;
   justify-content: space-evenly;
   padding: 50px;
@@ -84,21 +84,23 @@
     width: 500px;
   }
 }
-@media(max-width: 570px){
+@media(max-width: 320px){
   .header-container {
-    font-size: 10px;
+    font-size: 8px;
   }
   .mobile-menu {
     font-size: 10px;
+    display: inline;
   }
   .dropdown {
     font-size: 14px;
   }
   .header-container nav {
-    width: 280px;
+    width: 250px;
   }
   .nav-links {
     font-size: 10px;
     padding: 0rem;
+  
   }
 }
