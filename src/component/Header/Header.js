@@ -18,10 +18,12 @@ class Header extends Component{
             <div>
                 <header className='header-container'>
                     <h1>The Sea Goddess Grotto</h1>
-                    <div className='dropdown' onClick={this.toggleDropdown}>Menu</div>
+            <div className = "dropdown">
+                    <button className='dropbtn' onClick={this.toggleDropdown}>Menu</button>
+            <div className = "dropdown-content">
           {this.state.dropdownView
           ? (
-            <nav className='mobile-menu'>
+            <nav>
                 <Link to ='/' className='nav-links'>Home</Link>
                 <Link to = '/performancesandevents'  className='nav-links'>Performances and Events</Link>
                 <Link to = '/MER-chandise' className='nav-links'>MER-chandise</Link>
@@ -35,9 +37,11 @@ class Header extends Component{
             </nav>
             )
             : null}
-                </header>
             </div>
+        </div>
+    </header>
+</div>
         )
-        }
+    }
 }
 export default withRouter(Header)
